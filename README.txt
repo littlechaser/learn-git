@@ -7,3 +7,4 @@ git add *  # Ant风格添加修改
 git add *.java   # 将以java结尾的文件的所有修改添加到暂存区
 
 git status 查看当前工作区的状态
+git commit --amend -m 'commit message' 把当前提交和上次提交合并为一次提交，上次提交commit_id会被覆盖掉，git log只能看到一次commit，但是修改的内容却不会被覆盖，而是合并
