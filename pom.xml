@@ -204,49 +204,6 @@
 			<version>${classmate.version}</version>
 		</dependency>
 
-		<!--AWS 需要加入的包 开始-->
-		<dependency>
-			<groupId>alipay-sdk-java</groupId>
-			<artifactId>alipay-sdk-java</artifactId>
-			<version>20161129201425</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/alipay-sdk-java20161129201425.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>httpclient</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.2</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/httpclient-4.5.2.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>httpcore</groupId>
-			<artifactId>httpcore</artifactId>
-			<version>4.4.4</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/httpcore-4.4.4.jar</systemPath>
-		</dependency>
-		<dependency>
-			<groupId>aspectjweaver</groupId>
-			<artifactId>aspectjweaver</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/aspectjweaver.jar</systemPath>
-		</dependency>
-
-		<dependency>
-			<groupId>aws</groupId>
-			<artifactId>aws-java-sdk</artifactId>
-			<version>1.11.18</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/aws-java-sdk-1.11.18.jar</systemPath>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
-		<dependency>
-			<groupId>commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>1.1.3</version>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
